@@ -1,0 +1,289 @@
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.w{
+    width: 980px;
+    margin: 0 auto;
+}
+.clear{
+    clear: both;
+}
+.pg-header{
+    height: 110px;
+    background: url("../img/headbg.jpg") repeat-x left bottom;
+}
+
+.pg-header .logo{
+    float: left;
+}
+.pg-header .login{
+    float: right;
+    font-size: 20px;
+}
+.pg-header .logo a{
+    float: left;
+    height: 50px;
+    width: 160px;
+    background: url("../img/icon.png");
+    margin-top: 10px;
+}
+
+.pg-header .logo span{
+    float: left;
+    height: 34px;
+    margin-top: 34px;
+    font-size: 24px;
+    margin-left: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+.pg-header .login span{
+    display: inline-block;
+    margin-top: 50px;
+    color: #dddddd;
+}
+
+.pg-header .login a{
+    display: inline-block;
+    margin-top: 50px;
+    color: #333;
+}
+.pg-body{
+    font-size: 14px;
+    color: #6F6868;
+}
+.pg-body .register{
+    float: left;
+    height: 500px;
+    width: 400px;
+    margin:10px 40px;
+}
+
+.pg-body .register .input_info{
+    position: relative;
+    width: 398px;
+    border: 1px solid #dddddd;
+    height: 52px;
+    line-height: 52px;
+    margin: 10px auto;
+}
+.pg-body .register .separated{
+    height: 10px;
+
+}
+.pg-body .register .separated a{
+    color: #005EA7;
+    float: right;
+    font-size: 12px;
+}
+.pg-body .register .input_info label{
+    text-align: center;
+    letter-spacing: 4px;
+    margin-left: 20px;
+    width: 50px;
+
+}
+.pg-body .register .input_info input{
+    margin: 10px auto;
+    height: 30px;
+    width: 280px;
+    border: none;
+    opacity: 0.6;
+    float: right;
+}
+.pg-body .register .input_info span{
+    position: absolute;
+    top:3px;
+    left: 130px;
+}
+.pg-body .register .input_info .telphone{
+    display: inline-block;
+    height: 50px;
+    width: 100px;
+    border-right: 1px solid #dddddd;
+    margin: 0 auto;
+
+
+}
+.pg-body .register .input_info select{
+    height: 40px;
+    border: none;
+    font-size: 14px;
+    color: #6F6868;
+    padding-left: 10px;
+
+}
+.pg-body .register .input_info1{
+    position: relative;
+    width: 398px;
+    border: 1px solid #dddddd;
+    height: 52px;
+    line-height: 52px;
+    margin: 10px auto;
+}
+.pg-body .register .input_info1 label{
+    text-align: center;
+    letter-spacing: 4px;
+    margin-left: 20px;
+    width: 50px;
+
+}
+.pg-body .register .input_info1 .validate{
+    position: absolute;
+    top:3px;
+    right: 82px;
+    bottom: 0px;
+    margin: 10px auto;
+    height: 30px;
+    width: 200px;
+    border: none;
+    opacity: 0.6;
+    z-index: 12;
+
+}
+.pg-body .register .input_info1 .validate_button{
+    position: absolute;
+    top:6px;
+    right: 3px;
+    bottom: 0;
+    height: 40px;
+    width: 80px;
+    border: none;
+    background-color: #dddddd;
+}
+.pg-body .register .input_info1 span{
+    position: absolute;
+    top:3px;
+    right: 170px;
+    z-index: 11;
+}
+.pg-body .register .input_info1 img{
+    position: absolute;
+    top:6px;
+    right: 3px;
+    bottom: 0;
+    height: 40px;
+    width: 80px;
+}
+.pg-body .register .sumbit_info{
+    position: relative;
+    width: 398px;
+    border: 1px solid #dddddd;
+    height: 52px;
+    line-height: 52px;
+    margin: 10px auto;
+}
+.pg-body .register .sumbit_info #regiest_submit{
+    background-color: red;
+    margin: 0 auto;
+    height: 52px;
+    width: 398px;
+    border: none;
+    font-size: 18px;
+    color: white;
+}
+.pg-body .company{
+    float: left;
+    height: 600px;
+    width: 400px;
+    margin:20px 40px;
+    border-left:1px solid #dddddd;
+
+}
+
+.pg-body .company .company_register{
+    position: relative;
+    margin: 20px auto;
+    border-bottom:1px solid #dddddd;
+    height: 60px;
+    width: 160px;
+
+}
+.pg-body .company .company_register i{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background:url("../img/icon.png") 0px -50px ;
+    margin-right: 20px;
+}
+.pg-body .company .company_register span{
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
+.pg-body .company .coutomems_register{
+    position: relative;
+    margin: 20px auto;
+    height: 60px;
+    width: 160px;
+
+}
+
+.pg-body .company .coutomems_register i{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background:url("../img/icon.png") -50px -50px ;
+    margin-right: 20px;
+}
+.pg-body .company .coutomems_register span{
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
+
+
+.pg-footer{
+    position: absolute;
+    top: 750px;
+    right: 0;
+    left: 0;
+
+
+}
+.pg-footer .w1{
+    width: 980px;
+    margin: 0 auto;
+    border-top: 1px solid #dddddd;
+    height: 60px;
+}
+.pg-footer .link{
+    text-align: center;
+    font-size: 12px;
+    margin: 20px
+
+}
+.pg-footer .link a{
+
+    margin: 0 10px;
+    color: #999395;
+}
+.pg-footer .link span{
+    font-size: 12px;
+}
+.pg-footer .link .copyright{
+    margin: 20px 10px;
+    color: #999395;
+}
+.survey{
+    position: fixed;
+    top: 200px;
+    right: 10px;
+}
+.survey a{
+    display: inline-block;
+    height: 160px;
+    width: 30px;
+    background: url("../img/icon.png") 62px 0 ;
+    z-index: 20;
+}

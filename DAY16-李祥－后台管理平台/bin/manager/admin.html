@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>后台管理平台</title>
+    <link rel="stylesheet" href="css/admin1.css"/>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+</head>
+<body>
+    <div class="pg-header">
+        <div class="logo"><a href="#">后台管理平台</a></div>
+        <div class="navigate">
+            <a id="user_icon" class="user_a right" href="#"><img src="img/user.jpg"></a>
+            <div class="user hide">
+                <a>我的资料</a>
+                <a>注销</a>
+            </div>
+            <div class="tip right">
+                <i class="fa fa-comment-o" aria-hidden="true"></i>
+                <span>5</span>
+            </div>
+            <div class="tip right">
+                 <i class="fa fa-bell-o" aria-hidden="true"></i>
+            </div>
+            <div class="tip right">
+                <a>123</a>
+            </div>
+
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="pg-body">
+        <div class="menu left">
+            <div class="menu-item">
+                <div class="menu-header">主机管理</div>
+                <div class="menu-content hide"><a>机房列表</a></div>
+                <div class="menu-content hide"><a>主机列表</a></div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-header">学员管理</div>
+                <div class="menu-content hide"><a>学员列表</a></div>
+                <div class="menu-content hide"><a>课程列表</a></div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-header">系统管理</div>
+                <div class="menu-content hide"><a>用户列表</a></div>
+                <div class="menu-content hide"><a>课程列表</a></div>
+            </div>
+        </div>
+        <div class="main left">
+            <div class="info">
+                <div class="operation" id="operation">
+                    <input id="add" type="button" value="增加"\>
+                    <input id="delSelect" type="button" value="删除"\>
+                    <input id="selectAll" type="button" value="全选"\>
+                    <input id="cancelAll" type="button" value="取消"\>
+                    <input id="reseverAll" type="button" value="返选"\>
+                    <input id="edit_mode" type="button" value="进入编辑模式"\>
+                    <input id="save_mode" class="hide" type="button" value="退出编辑模式"\>
+                </div>
+                <div class="data">
+                    <table id="tb" border="1px">
+                        <thead>
+                            <tr>
+                                <th>选择</th>
+                                <th>主机名</th>
+                                <th>主机地址</th>
+                                <th>主机端口</th>
+                                <th>操作</th>
+                            </tr>
+                        </thead>
+                        <tbody id="host_data">
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td target="hostname">host1</td>
+                                <td target="hostip">1.1.1.1</td>
+                                <td target="port">1190</td>
+                                <td class="edit_td"><a class="tb_edit">编辑</a>|<a class="tb_del">删除</a><div class="zhezhao"></div></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td target="hostname">host1</td>
+                                <td target="hostip">1.1.1.1</td>
+                                <td target="port">1190</td>
+                                <td class="edit_td"><a class="tb_edit">编辑</a>|<a class="tb_del">删除</a><div class="zhezhao"></div></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td target="hostname">host1</td>
+                                <td target="hostip">1.1.1.1</td>
+                                <td target="port">1190</td>
+                                <td class="edit_td"><a class="tb_edit">编辑</a>|<a class="tb_del">删除</a><div class="zhezhao"></div></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="shadow hide"></div>
+                <div class="editDiv hide">
+                    <div><p>增加主机信息</p></div>
+                    <div class="add_data">
+                        <div class="add_host_data">
+                            <label for="hostname">主机&nbsp;&nbsp;名:</label>
+                            <input id="hostname" type="text"/>
+                        </div>
+                        <div class="add_host_data">
+                            <label for="hostip">主机地址:</label>
+                            <input id="hostip" type="text"/>
+                        </div>
+                        <div class="add_host_data">
+                            <label for="port">主机端口:</label>
+                            <input id="port" type="text"/>
+                        </div>
+                        <div class=" add_host_button">
+                            <input id="add_submit" type="button" value="增加">
+                            <input id="add_cancel" type="button" value="取消">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pg-footer"></div>
+
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/admin.js"></script>
+    <script>
+
+
+    </script>
+</body>
+</html>

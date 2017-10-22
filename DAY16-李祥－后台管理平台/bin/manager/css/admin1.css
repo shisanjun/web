@@ -1,0 +1,239 @@
+body{
+    margin: 0;
+}
+.a{
+    text-decoration: none;
+}
+.hide{
+    display: none;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+
+.select{
+    background-color: #079eec;
+}
+.pg-header{
+    height: 134px;
+    background: url("../img/bg.jpg");
+
+}
+.pg-header .logo{
+    position: relative;
+    float: left;
+    height: 93px;
+    line-height: 93px;
+    text-align: center;
+
+    background: url("../img/logo.jpg") no-repeat;
+}
+.pg-header .logo a{
+    float: left;
+    margin-left: 400px;
+    font-size: 48px;
+    font-weight: 600;
+    font-family:sans-serif;
+    color:#299b9a;
+    text-decoration: none;
+}
+
+.pg-header .navigate{
+    position: absolute;
+    top: 93px;
+    left: 0;
+    right: 0;
+    background: url("../img/nav.jpg") repeat-x;
+    height: 41px;
+    line-height: 41px;
+    font-size: 12px;
+
+}
+.pg-header .navigate .user_a{
+    position: relative;
+    padding: 0 80px 0 30px;
+    display: inline-block;
+    height: 40px;
+    width: 50px;
+    margin: 0 auto;
+    z-index: 11;
+}
+.pg-header .navigate .user_a:hover  {
+    background-image: url("../img/lbg.jpg");
+}
+.pg-header .navigate .user_a img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-top: 8px;
+}
+
+.pg-header .navigate .user_a:hover .user {
+    display: block;
+}
+.pg-header .navigate .user{
+    position: absolute;
+    top: 40px;
+    right: 80px;
+    height: 100px;
+    width: 80px;
+    text-align: center;
+    border: 1px solid #dddddd;
+    background-color: #33bb00;
+    z-index: 20;
+}
+.pg-header .navigate .user a{
+    display:block;
+}
+.pg-header .navigate .tip{
+    margin-right: 100px;
+    margin: 0 auto;
+    line-height: 40px;
+     padding: 5px 10px;
+    font-size: 12px;
+}
+
+.pg-header .navigate .tip span {
+    border-radius: 50%;
+    background-color: #ffffff;
+    padding: 5px 7px ;
+}
+
+.pg-body{
+    height: 480px;
+    overflow: auto;
+}
+/*菜单设置*/
+.pg-body .menu{
+
+    width: 183px;
+    height: 450px;
+
+}
+
+.pg-body .menu .menu-item{
+    font-size: 12px;
+    text-align:center;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.pg-body .menu .menu-header{
+    background: url("../img/menu_header.gif") no-repeat;
+
+    height: 29px;
+    line-height: 29px;
+
+
+}
+.pg-body .menu .menu-content:hover{
+    background: url("../img/menu_content.gif") no-repeat;
+    color: blue;
+    height: 29px;
+    line-height: 29px;
+}
+
+.pg-body .main{
+    position: fixed;
+    top:134px;
+    left: 190px;
+    right: 0;
+
+
+    border: 1px solid red;
+
+}
+.pg-body .main .info{
+    position: relative;
+    height: 450px;
+    bottom: 0;
+}
+.pg-body .main .operation{
+    text-align: center;
+    margin: 10px auto;
+}
+
+.pg-body .main .data{
+    text-align: center;
+
+}
+
+.pg-body .main .data #tb{
+    font-size: 12px;
+    margin: 0 auto;
+    min-width: 600px;
+}
+
+.pg-body .main .data #host_data .edit_td{
+    position: relative;
+}
+.pg-body .main .data #host_data .edit_td .zhezhao{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.6;
+    z-index: 15;
+    background-color: #666;
+}
+.pg-body #tb #host_data a{
+    color: red;
+    cursor:pointer;
+    font-weight: bold;
+    padding: 0 5px;
+}
+.pg-body .main .shadow{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+    background-color: black;
+    opacity: 0.6;
+}
+
+.pg-body .main .editDiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -150px;
+    height: 200px;
+    width: 300px;
+    border: 1px solid red;
+    background-color: #dddddd;
+    z-index: 20;
+}
+
+.pg-body .main .editDiv p{
+    text-align: center;
+    font-size: 14px;
+    border-bottom: 1px solid red;
+}
+.pg-body .main .editDiv .add_host_data{
+    height: 30px;
+    width: 280px;
+    margin: 3px auto;
+}
+.pg-body .main .editDiv .add_host_data input{
+    float: right;
+    width: 200px;
+}
+
+.pg-body .main .editDiv .add_host_button{
+    text-align: center;
+}
+.pg-body .main .editDiv .add_host_button input{
+    width: 60px;
+}
+.pg-footer{
+    height: 40px;
+}
